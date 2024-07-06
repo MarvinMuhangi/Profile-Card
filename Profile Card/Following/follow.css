@@ -1,0 +1,25 @@
+.social-media{
+    margin-top: 30px;
+}
+
+.username{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.home-btn{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(75, 24, 24);
+    color:white;
+    border: solid 1px rgb(253, 249, 249);
+    border-color: rgb(75, 24, 24);
+    width: 300px;
+    margin-top: 40px;
+}
+.home-btn:hover{
+    cursor: pointer;
+}

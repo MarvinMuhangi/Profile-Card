@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 500px;
+    height: 790px;
+    /* background-color: beige; */
+    margin:30px auto;
+    /* border: solid 2px black; */
+    border-radius: 20px;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5);
+    
+  
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    background-color: rgb(56, 41, 41);
+    
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+   
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.icons{
+    margin:1rem;
+}
+.profile-pic{
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.description{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 400px;
+    margin: auto;
+ 
+    padding: 10px;
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly; 
+   padding: 10px;
+  
+}
+
+.message-btn, .follow-btn{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(75, 24, 24);
+    color:white;
+    border: solid 1px rgb(253, 249, 249);
+    border-color: rgb(75, 24, 24);
+    width: 200px;
+    margin-top: 40px;
+}
+
+.message-btn, .follow-btn:hover{
+
+    cursor: pointer;
+}
+
+.descrip-paragraph{
+    /* padding: 10px; */
+    line-height: 30px;
+    font-size:18px;
+}
+
+
+@media only screen and (max-width:600px){
+    .btns{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        height: 880px;
+    }
+}

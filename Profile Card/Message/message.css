@@ -1,0 +1,35 @@
+.message-me{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+ 
+}
+textarea{
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.send-btn, .cancel-btn{
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(75, 24, 24);
+    color:white;
+    border: solid 1px rgb(253, 249, 249);
+    border-color: rgb(75, 24, 24);
+    width: 200px;
+    margin-top: 40px;
+}
+
+
+.send-btn, .cancel-btn{
+    cursor: pointer;
+}
+
+.message-title{
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
